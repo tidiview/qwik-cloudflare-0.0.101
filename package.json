@@ -2,10 +2,10 @@
   "name": "qwik-cloudflare-0.0.101",
   "description": "File based routing and MDX support Vite.js tooling. Cloudflare Pages. Prettier code formatter. Tailwind CSS framework.",
   "scripts": {
-    "build": "pnpm run typecheck && pnpm run build.client && pnpm run build.ssr",
+    "build": "npm run typecheck && npm run build.client && npm run build.ssr",
     "build.client": "vite build",
     "build.ssr": "vite build --ssr src/entry.cloudflare.tsx",
-    "dev": "pnpm run dev.ssr",
+    "dev": "npm run dev.ssr",
     "dev.client": "vite",
     "dev.debug": "node --inspect-brk node_modules/vite/bin/vite.js --force --mode ssr",
     "dev.ssr": "node --inspect node_modules/vite/bin/vite.js --mode ssr",
@@ -13,7 +13,7 @@
     "fmt.check": "prettier --check .",
     "lint": "eslint \"src/**/*.ts*\"",
     "serve": "wrangler pages dev ./dist",
-    "start": "pnpm run dev",
+    "start": "npm run dev",
     "typecheck": "tsc --incremental --noEmit"
   },
   "devDependencies": {
