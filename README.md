@@ -1,4 +1,4 @@
-# Qwik qwik-cloudflare-0.0.101 ⚡️
+# Qwik qwikcity-cloudflare ⚡️
 
 - File based routing and MDX support
 - Vite.js tooling.
