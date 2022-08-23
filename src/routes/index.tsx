@@ -6,6 +6,8 @@ export default component$(() => {
     <div>
       <h1>Welcome to Qwik City</h1>
 
+    
+
       <p>The meta-framework for Qwik.</p>
     </div>
   );
